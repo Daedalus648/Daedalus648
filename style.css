@@ -1,0 +1,127 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F3A712;
+}
+
+#logo {
+    height: auto;
+    max-width: 100%;
+    align-self: center;
+}
+
+.division {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #708D81;
+    color: white;
+}
+
+.hyperlink {
+    color: #F3A712;
+}
+
+h2 {
+    align-self: center;
+}
+
+.detail {
+    align-self: center;
+}
+
+.programs {
+    display: flex;
+    flex: 1;
+    background-image: url(images/image1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.carrousel {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.picture {
+    object-fit: cover;
+    width: 30%;
+    height: auto;
+}
+
+.teamg1 {
+    object-position: 30% 0;
+}
+
+.footer {
+    background-color: #F3A712;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footerelement {
+    flex-basis: 33%
+}
+
+.socialmedia {
+    font-size: 50px;
+}
+
+.table {
+    border: 1px solid #333;
+    background-color: #708D81;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hour {
+    flex-basis: 20%;
+}
+
+.programinfo {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.distribution {
+    background-color: #708D81;
+    width: 40%;
+}
+
+.programpic {
+    object-fit: cover;
+    object-position: 85% 0;
+    max-width: 50%;
+    height: auto;
+}
+
+.description {
+    background-color: #708D81;
+    align-self: center;
+    width: 50%
+}
+
+.division,
+.hyperlink,
+.detail,
+.footerelement {
+    font-weight: bold;
+}
